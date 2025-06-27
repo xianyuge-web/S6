@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>仙玉閣成員及其隊伍登記</title>
+  </head>
+  <body>
+    <section class="hero is-danger is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">仙玉閣成員及其隊伍登記</h1>
+        </div>
+      </div>
+    </section>
+    <form id="form" class="container m-4 pl-4">
+      <div class="columns">      
+      <div class="column">
+        <label class="label">遊戲名字</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="遊戲名字"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <label class="label">遊戲UID</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="遊戲UID"
+          />
+        </div>
+        </div>
+      </div>
+<hr>
+  <div class="columns">      
+      <div class="column">
+        <label class="label">主將</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="主將"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <label class="label">副將</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="副將"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <label class="label">副將</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="副將2"
+          />
+        </div>        
+      </div>
+    </div>
+
+  <div class="columns">      
+      <div class="column">
+        <label class="label">紅度 (典藏+1)</label>
+          <div class="select">
+            <select name="主將紅度">
+              <option value="白板">白板</option>
+              <option value="1">❜</option>
+              <option value="2">❜❜</option>
+              <option value="3">❜❜❜</option>
+              <option value="4">❜❜❜❜</option>
+              <option value="5">❜❜❜❜❜</option>
+              <option value="6">❜❜❜❜❜❜</option>
+            </select>
+          </div>
+      </div>
+      <div class="column">
+        <label class="label">紅度 (典藏+1)</label>
+          <div class="select">
+            <select name="副將紅度">
+              <option value="白板">白板</option>
+              <option value="1">❜</option>
+              <option value="2">❜❜</option>
+              <option value="3">❜❜❜</option>
+              <option value="4">❜❜❜❜</option>
+              <option value="5">❜❜❜❜❜</option>
+              <option value="6">❜❜❜❜❜❜</option>
+            </select>
+          </div>
+      </div>
+      <div class="column">
+        <label class="label">紅度 (典藏+1)</label>
+          <div class="select">
+            <select name="副將2紅度">
+              <option value="白板">白板</option>
+              <option value="1">❜</option>
+              <option value="2">❜❜</option>
+              <option value="3">❜❜❜</option>
+              <option value="4">❜❜❜❜</option>
+              <option value="5">❜❜❜❜❜</option>
+              <option value="6">❜❜❜❜❜❜</option>
+            </select>
+          </div>
+      </div>
+</div>
+
+  <div class="columns">      
+      <div class="column">
+        <label class="label">戰法</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="主將戰法1"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <label class="label">戰法</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="副將戰法1"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <label class="label">戰法</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="副將2戰法1"
+          />
+        </div>        
+      </div>
+    </div>
+
+ <div class="columns">      
+      <div class="column">
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="主將戰法2"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="副將戰法2"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="副將2戰法2"
+          />
+        </div>        
+      </div>
+    </div>
+
+      <hr>
+      
+      <div class="field">
+        <label class="label">活躍時間</label>
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="活躍時間" value="大部分時間都能上線" /> 大部分時間都能上線
+          </label>
+          <label class="radio">
+            <input type="radio" name="活躍時間" value="早上可以上線" /> 早上可以上線
+          </label>
+          <label class="radio">
+            <input type="radio" name="活躍時間" value="中午可以上線" /> 中午可以上線
+          </label>
+          <label class="radio">
+            <input type="radio" name="活躍時間" value="晚上可以上線" /> 晚上可以上線
+          </label>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">需要健檢?</label>
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="健檢" value="需要" /> 需要
+          </label>
+          <label class="radio">
+            <input type="radio" name="健檢" value="不需要" /> 不需要
+          </label>
+        </div> 
+      </div>
+<hr>
+<div class="notification">
+  如欲登記<strong>第一隊以外</strong>的主力隊伍，請於提交後<a>重新填寫</a>，謝謝～
+</div>
+
+      <div class="field">
+        <div class="control">
+          <button class="button is-primary" type="submit" id="submit-button" onClick="myFunction()">
+            提交
+          </button>
+        </div>
+      </div>
+    </form>
+    <div
+      id="message"
+      style="
+        display: none;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: bold;
+      "
+    ></div>
+
+    <script>
+      const form = document.getElementById("form");
+      const submitButton = document.getElementById("submit-button");
+      const messageDiv = document.getElementById("message");
+      const fileInput = document.getElementById("fileInput");
+      const fileNameDisplay = document.getElementById("fileNameDisplay");
+
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        messageDiv.textContent = "Submitting...";
+        messageDiv.style.display = "block";
+        messageDiv.style.backgroundColor = "beige";
+        messageDiv.style.color = "black";
+        submitButton.disabled = true;
+        submitButton.classList.add("is-loading");
+
+        try {
+          const formData = new FormData(this);
+          const formDataObj = {};
+
+          // Convert FormData to object
+          for (let [key, value] of formData.entries()) {
+            formDataObj[key] = value;
+          }
+
+          // Submit form data
+          const scriptURL =
+            "https://script.google.com/macros/s/AKfycbzdcLa1PvXUvCd1WtoEk5z9X7lObaqrWeGd2HFmK3bVHSP8pRLRjdyrE7anFTqcM8_z/exec";
+
+          const response = await fetch(scriptURL, {
+            redirect: "follow",
+            method: "POST",
+            body: JSON.stringify(formDataObj),
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          });
+
+          const data = await response.json();
+
+          if (data.status === "success") {
+            messageDiv.textContent =
+              data.message || "Data submitted successfully!";
+            messageDiv.style.backgroundColor = "#48c78e";
+            messageDiv.style.color = "white";
+            form.reset();
+          // Redirect after successful submission
+            window.location.href = "thank.html";
+          } else {
+            throw new Error(data.message || "Submission failed");
+          }
+        } catch (error) {
+          console.error("Error:", error);
+          messageDiv.textContent = "Error: " + error.message;
+          messageDiv.style.backgroundColor = "#f14668";
+          messageDiv.style.color = "white";
+        } finally {
+          submitButton.disabled = false;
+          submitButton.classList.remove("is-loading");
+
+          setTimeout(() => {
+            messageDiv.textContent = "";
+            messageDiv.style.display = "none";
+          }, 4000);
+        }
+      });
+    </script>
+
+  </body>
+</html>
